@@ -6,22 +6,22 @@
                 <h5 class="uppercase font-bold mb-4 text-black">Navigation</h5>
                 <ul class="nav">
                     <li>
-                        <router-link to="/" exact>
+                        <router-link to="/" exact onclick="toggleNav();">
                             <i class="fas fa-home-heart fa-fw mx-2"></i>Home
                         </router-link>
                     </li>
                     <li>
-                        <router-link to="/about">
+                        <router-link to="/about" onclick="toggleNav();">
                             <i class="fas fa-clipboard-user fa-fw mx-2"></i>About
                         </router-link>
                     </li>
                     <li>
-                        <router-link to="/projects">
+                        <router-link to="/projects" onclick="toggleNav();">
                             <i class="fas fa-rocket fa-fw mx-2"></i>Projects
                         </router-link>
                     </li>
                     <li>
-                        <router-link to="/contact">
+                        <router-link to="/contact" onclick="toggleNav();">
                             <i class="fas fa-envelope-open-text fa-fw mx-2"></i>Contact
                         </router-link>
                     </li>
@@ -31,29 +31,29 @@
                 <h5 class="uppercase font-bold mb-4 text-black">Social</h5>
                 <ul class="nav">
                     <li>
-                        <a target="_blank" href="https://github.com/keisto">
+                        <a target="_blank" href="https://github.com/keisto" onclick="toggleNav();">
                             <i class="fab fa-github fa-fw mx-2" aria-hidden="true"></i>GitHub
                         </a>
                     </li>
                     <li>
-                        <a target="_blank" href="https://linkedin.com/in/keisto">
+                        <a target="_blank" href="https://linkedin.com/in/keisto" onclick="toggleNav();">
                             <i class="fab fa-linkedin fa-fw mx-2"></i>LinkedIn
                         </a>
                     </li>
                     <li>
-                        <a target="_blank" href="https://www.hackerrank.com/profile/keisertony">
+                        <a target="_blank" href="https://www.hackerrank.com/profile/keisertony" onclick="toggleNav();">
                             <i class="fab fa-hackerrank fa-fw mx-2"></i>HackerRank
                         </a>
                     </li>
                     <li>
-                        <a target="_blank" href="https://leetcode.com/keisto/">
+                        <a target="_blank" href="https://leetcode.com/keisto/" onclick="toggleNav();">
                             <i class="fas fa-keyboard fa-fw mx-2"></i>LeetCode
                         </a>
                     </li>
                 </ul>
             </section>
             <section class="mb-8 pl-4">
-                <a class="button" target="_blank" href="/files/Keiser_Tony_Resume.pdf">
+                <a class="button" target="_blank" href="/files/Keiser_Tony_Resume.pdf" onclick="toggleNav();">
                     <i class="fas fa-download fa-fw mr-2"></i>Download Resume
                 </a>
             </section>

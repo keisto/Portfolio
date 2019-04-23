@@ -9778,6 +9778,17 @@ table {
   color: #8795a1;
 }
 
+.v-divider {
+  display: flex;
+  align-self: center;
+  height: 4rem;
+  width: 1px;
+  margin-top: 0px;
+  margin-right: .25rem;
+  opacity: .08;
+  background-image: linear-gradient(-180deg, rgba(0, 0, 0, 0) 10%, rgba(0, 0, 0, .65098) 32%, black 50%, rgba(0, 0, 0, .65098) 68%, rgba(0, 0, 0, 0) 90%);
+}
+
 a {
   color: #f6993f;
   text-decoration: none;
@@ -9846,20 +9857,17 @@ li a:hover i {
 }
 
 li a::before {
-  content: "";
-  height: 0;
-  width: 0;
   opacity: 0;
-  background-color: #f2f2f2;
-  border-radius: 4px;
-  border: 1px solid #b8c2cc;
-  position: relative;
-  transition-property: opacity height width;
+  transition-property: opacity;
   transition-duration: .2s;
   transition-timing-function: ease-in-out;
 }
 
 li a:hover::before {
+  content: "";
+  background-color: #f2f2f2;
+  border-radius: 4px;
+  border: 1px solid #b8c2cc;
   position: absolute;
   height: 4px;
   width: 4px;

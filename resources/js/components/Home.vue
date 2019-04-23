@@ -1,6 +1,12 @@
 <template>
     <div class="animated fadeInUp">
-        <h1 class="text-black mb-4">Hello World!</h1>
+        <div class="bg-white rounded border borer-grey-light shadow p-6 lg:p-12 xl:p-12">
+            <h1 class="text-black mb-4 lg:mb-10 xl:mb-10">Hello World!</h1>
+            <p class="text-grey-darker text-base">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+            </p>
+        </div>
+        <!-- <h1 class="text-black mb-4">Hello World!</h1>
         <p class="mb-8 leading-loose">
             Greetings, I'm a developer, and I have been developing since 2006. I haven't had a chance to make an entire career out of developing until now, but if I get the opportunity I won't squander it. For the past 4 years I have been working primarily in Laravel, Swift, and Java.
         </p>
@@ -18,7 +24,7 @@
         <p class="text-xs hint text-right">
             <i class="fal fa-history"></i>
             Updated: April 21, 2019
-        </p>
+        </p> -->
     </div>
 </template>
 

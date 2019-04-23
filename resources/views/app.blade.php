@@ -19,7 +19,7 @@
         <div id="app">
             @include('partials.mobile-nav')
             <div class="container mx-auto">
-                <header class="py-6 my-8 flex items-center">
+                <header class="py-6 my-0 md:my-4 lg:my-8 lx:my-8 flex items-center">
                     <div class="flex flex-1 items-center animated fadeInLeft flex-col md:flex-row lg:flex-row xl:flex-row">
                         <div class="mr-4 block lg:hidden xl:hidden animated fadeInLeft">
                             <button onclick="toggleNav();" class="button"><i class="fas fa-bars fa-fw"></i></button>
@@ -28,7 +28,7 @@
                         <img src="/images/tony.jpeg" class="inline border border-grey-light shadow mr-4" style="border-radius: 100%; width: 120px; height: 120px;"/>
                         <div>
                             <h1 class="text-black leading-loose">Tony Keiser</h1>
-                            <h5 class="hint text-center md:text-left lg:text-left xl:text-left md:pl-1 lg:pl-1 lx:pl-1">Software Developer</h5>
+                            <h5 class="hint text-center md:text-left lg:text-left xl:text-left md:pl-1 lg:pl-1 lx:pl-1">Software Engineer</h5>
                         </div>
                     </div>
 
@@ -36,7 +36,7 @@
                         <p>
                             <i class="text-grey-dark fal fa-map-marker-alt mr-2"></i>Seattle, Wa 98121
                         </p>
-                        <p>
+                        <p class="py-2">
                             <i class="text-grey-dark fal fa-mobile mr-2"></i>
                             <a href="tel:206-323-3484">206-323-3484</a>
                         </p>

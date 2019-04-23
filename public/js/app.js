@@ -145,6 +145,12 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({});
 
 /***/ }),
@@ -158,6 +164,11 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
 //
 //
 //
@@ -206,6 +217,12 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({});
 
 /***/ }),
@@ -219,6 +236,12 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -777,57 +800,24 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "animated fadeInUp" }, [
-      _c("h1", { staticClass: "text-black mb-4" }, [_vm._v("Hello World!")]),
-      _vm._v(" "),
-      _c("div", { staticClass: "w-full lg:flex shadow" }, [
-        _c(
-          "div",
-          {
-            staticClass:
-              "border border-grey-light bg-white rounded p-4 flex flex-col justify-between leading-normal"
-          },
-          [
-            _c("div", { staticClass: "mb-8" }, [
-              _c(
-                "p",
-                { staticClass: "text-sm text-grey-dark flex items-center" },
-                [
-                  _c("i", { staticClass: "fas fa-lock-alt mr-2" }),
-                  _vm._v("\n            Members only\n          ")
-                ]
-              ),
-              _vm._v(" "),
-              _c("div", { staticClass: "text-black font-bold text-xl mb-2" }, [
-                _vm._v("Can coffee make you a better developer?")
-              ]),
-              _vm._v(" "),
-              _c("p", { staticClass: "text-grey-darker text-base" }, [
-                _vm._v(
-                  "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil."
-                )
-              ])
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "flex items-center" }, [
-              _c("img", {
-                staticClass: "w-10 h-10 rounded-full mr-4",
-                attrs: {
-                  src: "https://tailwindcss.com/img/jonathan.jpg",
-                  alt: "Avatar of Jonathan Reinink"
-                }
-              }),
-              _vm._v(" "),
-              _c("div", { staticClass: "text-sm" }, [
-                _c("p", { staticClass: "text-black leading-none" }, [
-                  _vm._v("Jonathan Reinink")
-                ]),
-                _vm._v(" "),
-                _c("p", { staticClass: "text-grey-dark" }, [_vm._v("Aug 18")])
-              ])
-            ])
-          ]
-        )
-      ])
+      _c(
+        "div",
+        {
+          staticClass:
+            "bg-white rounded border borer-grey-light shadow p-6 lg:p-12 xl:p-12"
+        },
+        [
+          _c("h1", { staticClass: "text-black mb-4 lg:mb-10 xl:mb-10" }, [
+            _vm._v("About Me")
+          ]),
+          _vm._v(" "),
+          _c("p", { staticClass: "text-grey-darker text-base" }, [
+            _vm._v(
+              "\n          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.\n        "
+            )
+          ])
+        ]
+      )
     ])
   }
 ]
@@ -860,18 +850,22 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "animated fadeInUp" }, [
-      _c("h1", { staticClass: "text-black mb-4" }, [_vm._v("Contact Me")]),
-      _vm._v(" "),
       _c(
         "div",
         {
-          staticClass: "rounded border shadow overflow-hidden absolute w-full"
+          staticClass:
+            "bg-white rounded border borer-grey-light shadow p-6 lg:p-12 xl:p-12"
         },
         [
-          _c("div", {
-            staticStyle: { width: "100%", height: "300px" },
-            attrs: { id: "map" }
-          })
+          _c("h1", { staticClass: "text-black mb-4 lg:mb-10 xl:mb-10" }, [
+            _vm._v("Contact Me")
+          ]),
+          _vm._v(" "),
+          _c("p", { staticClass: "text-grey-darker text-base" }, [
+            _vm._v(
+              "\n          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.\n        "
+            )
+          ])
         ]
       )
     ])
@@ -906,40 +900,24 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "animated fadeInUp" }, [
-      _c("h1", { staticClass: "text-black mb-4" }, [_vm._v("Hello World!")]),
-      _vm._v(" "),
-      _c("p", { staticClass: "mb-8 leading-loose" }, [
-        _vm._v(
-          "\n        Greetings, I'm a developer, and I have been developing since 2006. I haven't had a chance to make an entire career out of developing until now, but if I get the opportunity I won't squander it. For the past 4 years I have been working primarily in Laravel, Swift, and Java.\n    "
-        )
-      ]),
-      _vm._v(" "),
-      _c("p", { staticClass: "mb-8 leading-loose" }, [
-        _vm._v(
-          "\n        The most recent project I have been working on uses Laravel with a MySQL database. I designed API's to perform secure logins and share/update data. The data is shared with mobile companion applications for iOS and Android devices. This is a rather large project called Pylon that is still in development.\n    "
-        )
-      ]),
-      _vm._v(" "),
-      _c("p", { staticClass: "mb-8 leading-loose" }, [
-        _vm._v("\n        My mobile application Navo "),
-        _c("span", { staticClass: "hint" }, [_vm._v("(iOS)")]),
-        _vm._v(
-          " has been updated to use Algolia's InstantSearch, GoogleAs, add Apple's StoreKit. Navo is an oil and gas locator application with over 1000 downloads in North Dakota "
-        ),
-        _c("span", { staticClass: "hint" }, [_vm._v("(targeted audience)")]),
-        _vm._v(".\n    ")
-      ]),
-      _vm._v(" "),
-      _c("p", { staticClass: "mb-8 leading-loose" }, [
-        _vm._v(
-          "\n        I will continue building up my portfolio to seize the dream job I desire. Stay a while, get to know me.\n    "
-        )
-      ]),
-      _vm._v(" "),
-      _c("p", { staticClass: "text-xs hint text-right" }, [
-        _c("i", { staticClass: "fal fa-history" }),
-        _vm._v("\n        Updated: April 21, 2019\n    ")
-      ])
+      _c(
+        "div",
+        {
+          staticClass:
+            "bg-white rounded border borer-grey-light shadow p-6 lg:p-12 xl:p-12"
+        },
+        [
+          _c("h1", { staticClass: "text-black mb-4 lg:mb-10 xl:mb-10" }, [
+            _vm._v("Hello World!")
+          ]),
+          _vm._v(" "),
+          _c("p", { staticClass: "text-grey-darker text-base" }, [
+            _vm._v(
+              "\n          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.\n        "
+            )
+          ])
+        ]
+      )
     ])
   }
 ]
@@ -972,20 +950,15 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "animated fadeInUp" }, [
-      _c("h1", { staticClass: "text-black mb-4" }, [_vm._v("Projects")]),
-      _vm._v(" "),
-      _c("div", { staticClass: "max-w-sm rounded overflow-hidden shadow-lg" }, [
-        _c("img", {
-          staticClass: "w-full",
-          attrs: {
-            src: "https://tailwindcss.com/img/card-top.jpg",
-            alt: "Sunset in the mountains"
-          }
-        }),
-        _vm._v(" "),
-        _c("div", { staticClass: "px-6 py-4" }, [
-          _c("div", { staticClass: "font-bold text-xl mb-2" }, [
-            _vm._v("The Coldest Sunset")
+      _c(
+        "div",
+        {
+          staticClass:
+            "bg-white rounded border borer-grey-light shadow p-6 lg:p-12 xl:p-12"
+        },
+        [
+          _c("h1", { staticClass: "text-black mb-4 lg:mb-10 xl:mb-10" }, [
+            _vm._v("Projects")
           ]),
           _vm._v(" "),
           _c("p", { staticClass: "text-grey-darker text-base" }, [
@@ -993,37 +966,8 @@ var staticRenderFns = [
               "\n          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.\n        "
             )
           ])
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "px-6 py-4" }, [
-          _c(
-            "span",
-            {
-              staticClass:
-                "inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker mr-2"
-            },
-            [_vm._v("#photography")]
-          ),
-          _vm._v(" "),
-          _c(
-            "span",
-            {
-              staticClass:
-                "inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker mr-2"
-            },
-            [_vm._v("#travel")]
-          ),
-          _vm._v(" "),
-          _c(
-            "span",
-            {
-              staticClass:
-                "inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker"
-            },
-            [_vm._v("#winter")]
-          )
-        ])
-      ])
+        ]
+      )
     ])
   }
 ]
