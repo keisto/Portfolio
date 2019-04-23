@@ -19,9 +19,12 @@
         <div id="app">
             @include('partials.mobile-nav')
             <div class="container mx-auto">
-                <button onclick="toggleNav();">Menu</button>
                 <header class="py-6 my-8 flex items-center">
                     <div class="flex flex-1 items-center animated fadeInLeft flex-col md:flex-row lg:flex-row xl:flex-row">
+                        <div class="mr-4 block lg:hidden xl:hidden animated fadeInLeft">
+                            <button onclick="toggleNav();" class="button"><i class="fas fa-bars fa-fw"></i></button>
+                        </div>
+
                         <img src="/images/tony.jpeg" class="inline border border-grey-light shadow mr-4" style="border-radius: 100%; width: 120px; height: 120px;"/>
                         <div>
                             <h1 class="text-black leading-loose">Tony Keiser</h1>
@@ -29,7 +32,7 @@
                         </div>
                     </div>
 
-                    <div class="flex-1 flex-col text-right animated fadeInRight hidden md:flex lg:flex xl:flex">
+                    <div class="w-1/3 flex-col text-right animated fadeInRight hidden md:flex lg:flex xl:flex">
                         <p>
                             <i class="text-grey-dark fal fa-map-marker-alt mr-2"></i>Seattle, Wa 98121
                         </p>
@@ -47,7 +50,7 @@
 
                 <main class="flex">
                     @include('partials.main-nav')
-                    <div class="primary flex-1">
+                    <div class="primary flex-1 mb-8">
                         <router-view></router-view>
                     </div>
                 </main>

@@ -54,7 +54,7 @@
             </section>
             <section class="mb-8 pl-4">
                 <a class="button" target="_blank" href="/files/Keiser_Tony_Resume.pdf">
-                    <i class="fas fa-file-pdf fa-fw mr-2 text-white"></i>Download Resume
+                    <i class="fas fa-download fa-fw mr-2"></i>Download Resume
                 </a>
             </section>
         </div>
