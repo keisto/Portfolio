@@ -8,5 +8,4 @@ Button Text
 @endcomponent
 
 From:<br>
-$name
 @endcomponent

@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Mail\MessageSubmitted;
 use Illuminate\Support\Facades\Mail;
-
+''
 class MailController extends Controller {
 
     // public function mail(Request $request) {
@@ -23,8 +23,8 @@ class MailController extends Controller {
     // }
     //
     public function mail() {
-        Mail::to('keisertony@gmail.com')->send(
-                new MessageSubmitted(['message' => 'hello man', 'name' => 'some ting'])
+        Mail::to('keisertony@gmail.com')->replyTo('someone@g.com', 'Some Thing')->send(
+                new MessageSubmitted('Hello World!123')
             );
     }
 }
