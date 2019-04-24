@@ -4,7 +4,14 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
         <meta name="csrf-token" content="{{ csrf_token() }}">
-        <title>Tony Keiser‍</title>
+        <meta name="Description" content="Tony Keiser is a software developer in the Seattle, WA. His skills for developing mobile and web applications include PHP, JavaScript, Swift, Java utilizing frameworks like Laravel, VueJS, Alamofire, and more!">
+        <meta name="Keywords" content="software developer, laravel developer, seattle Developer, php developer, vuejs developer, software engineer, Tony Keiser">
+        <title>Software Developer | Tony Keiser‍</title>
+
+        <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+        <link rel="iconicon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+        <link rel="manifest" href="/images/favicon/site.webmanifest">
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600" rel="stylesheet">
@@ -14,6 +21,15 @@
         <link rel="stylesheet" href="/css/app.css">
         <!-- Scripts -->
         <script src='https://static-assets.mapbox.com/gl-pricing/dist/mapbox-gl.js'></script>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-129313407-2"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'UA-129313407-2');
+        </script>
     </head>
     <body class="font-sans px-4">
         <div id="app">
@@ -28,7 +44,7 @@
                         <img src="/images/tony.jpeg" class="inline border border-grey-light shadow mr-4" style="border-radius: 100%; width: 120px; height: 120px;"/>
                         <div>
                             <h1 class="text-black leading-loose">Tony Keiser</h1>
-                            <h5 class="hint text-center md:text-left lg:text-left xl:text-left md:pl-1 lg:pl-1 lx:pl-1">Software Engineer</h5>
+                            <h5 class="hint text-center md:text-left lg:text-left xl:text-left md:pl-1 lg:pl-1 lx:pl-1">Software Developer</h5>
                         </div>
                     </div>
 

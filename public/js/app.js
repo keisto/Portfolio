@@ -1775,6 +1775,17 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({});
 
 /***/ }),
@@ -1975,7 +1986,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {
     mapboxgl.accessToken = 'pk.eyJ1Ijoia2Vpc3RvIiwiYSI6ImNpa2l3c2twZTA1NmV1ZG02dDU2dDh0Y3AifQ.IsAoh6-Oygo60Myhyu-eXg';
@@ -2015,10 +2025,7 @@ __webpack_require__.r(__webpack_exports__);
           _this.fields = {}; //Clear input fields.
 
           _this.loaded = true;
-          _this.success = true; // $('#form').addClass('animated').addClass('zoomOut');
-          // $('#form').addClass('animated').addClass('zoomOut');
-          //
-
+          _this.success = true;
           animateCSS('#form', 'zoomOut', function () {
             $('#form').toggle();
             $('#success').removeClass('hidden').addClass('flex');
@@ -2662,28 +2669,56 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _vm._m(0)
+  return _c("div", { staticClass: "animated fadeInUp" }, [
+    _c(
+      "div",
+      {
+        staticClass:
+          "bg-white rounded border borer-grey-light shadow p-6 lg:p-12 xl:p-12"
+      },
+      [
+        _c("h1", { staticClass: "text-black mb-4 lg:mb-10 xl:mb-10" }, [
+          _vm._v("Uh oh!")
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "flex flex-row items-center" }, [
+          _c("div", {
+            staticClass:
+              "w-2/5 hidden md:block lg:block xl:block bg-center mr-0 md:mr-6 lg:mr-6 xl:mr-6",
+            staticStyle: {
+              height: "256px",
+              background: "url('/images/planet.png')",
+              "background-size": "contain",
+              "background-position": "center left",
+              "background-repeat": "no-repeat no-repeat"
+            }
+          }),
+          _vm._v(" "),
+          _c("div", { staticClass: "flex-1" }, [
+            _c("h2", { staticClass: "text-black mb-8 mt-4" }, [
+              _vm._v("Are you Lost?")
+            ]),
+            _vm._v(" "),
+            _c(
+              "p",
+              { staticClass: "text-grey-darker text-base mb-4" },
+              [
+                _vm._v(
+                  "\n                    Let me take you home.\n                    "
+                ),
+                _c("router-link", { attrs: { to: "/" } }, [
+                  _c("i", { staticClass: "far fa-long-arrow-right arrow" })
+                ])
+              ],
+              1
+            )
+          ])
+        ])
+      ]
+    )
+  ])
 }
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "animated fadeInUp" }, [
-      _c("h1", { staticClass: "text-black mb-4" }, [_vm._v("Uh oh!")]),
-      _vm._v(" "),
-      _c("div", {
-        staticClass: "rounded shadow w-full",
-        staticStyle: {
-          background: "url(/images/404.png)",
-          height: "404px",
-          "background-position": "center",
-          "background-size": "cover"
-        }
-      })
-    ])
-  }
-]
+var staticRenderFns = []
 render._withStripped = true
 
 
@@ -3407,8 +3442,8 @@ var staticRenderFns = [
             _c("p", { staticClass: "py-2" }, [
               _c("i", { staticClass: "text-grey-dark fal fa-mobile mr-2" }),
               _vm._v(" "),
-              _c("a", { attrs: { href: "tel:206-323-3484" } }, [
-                _vm._v("206-323-3484")
+              _c("a", { attrs: { href: "tel:206-353-3484" } }, [
+                _vm._v("206-353-3484")
               ])
             ]),
             _vm._v(" "),
