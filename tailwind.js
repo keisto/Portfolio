@@ -46,12 +46,12 @@ let defaultConfig = require('tailwindcss/defaultConfig')()
 let colors = {
   'transparent': 'transparent',
   'background': '#f2f2f2',
-  'black': '#22292f',
-  'grey-darkest': '#3d4852',
-  'grey-darker': '#606f7b',
-  'grey-dark': '#8795a1',
+  'black': '#382b5f',
+  'grey-darkest': '#4c406f', // #3d4852
+  'grey-darker': '#4c406f', // 606f7b
+  'grey-dark': '#928ba7',
   'grey': '#b8c2cc',
-  'grey-light': '#dae1e7',
+  'grey-light': '#c5c1d0',
   'grey-lighter': '#f1f5f8',
   'grey-lightest': '#f8fafc',
   'white': '#ffffff',
@@ -769,7 +769,7 @@ module.exports = {
   */
 
   shadows: {
-    default: '0 2px 4px 0 rgba(0,0,0,0.10)',
+    default: '0 2px 4px 0 #c5c1d080',
     'md': '0 4px 8px 0 rgba(0,0,0,0.12), 0 2px 4px 0 rgba(0,0,0,0.08)',
     'lg': '0 15px 30px 0 rgba(0,0,0,0.11), 0 5px 15px 0 rgba(0,0,0,0.08)',
     'inner': 'inset 0 2px 4px 0 rgba(0,0,0,0.06)',

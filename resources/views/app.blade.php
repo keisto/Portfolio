@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-
+        <meta name="csrf-token" content="{{ csrf_token() }}">
         <title>Tony Keiser‍</title>
 
         <!-- Fonts -->
@@ -33,7 +33,7 @@
                     </div>
 
                     <div class="w-1/3 flex-col text-right animated fadeInRight hidden md:flex lg:flex xl:flex">
-                        <p>
+                        <p class="text-black">
                             <i class="text-grey-dark fal fa-map-marker-alt mr-2"></i>Seattle, Wa 98121
                         </p>
                         <p class="py-2">
@@ -44,11 +44,16 @@
                             <i class="text-grey-dark fal fa-envelope-open-text mr-2"></i>
                             <a href="mailto:keisertony@gmail.com">keisertony@gmail.com</a>
                         </p>
-
                     </div>
                 </header>
 
                 <main class="flex">
+                    <img src="/images/background/galaxy.png" class="bg-image" width="320px"
+                        style="right: 10%; top: 2%;" />
+                    <img src="/images/background/mars.png" class="bg-image" width="512px"
+                        style="left: 5%; bottom: 2%;" />
+                    <img id="asteroid" src="/images/background/asteroid.png" class="bg-image" width="256px"
+                        style="right: 12%; bottom: 12%;" />
                     @include('partials.main-nav')
                     <div class="primary flex-1 mb-8">
                         <router-view></router-view>
@@ -59,26 +64,55 @@
         <script src="https://code.jquery.com/jquery-3.4.0.min.js"></script>
         <script src="/js/app.js"></script>
         <script type="text/javascript">
+
+            var navBool = false;
+
             function toggleNav() {
+                navBool = !navBool;
                 $('.sidenav').toggleClass('expanded');
                 $('.mobile-nav').toggleClass('expanded');
+                $('#flag').fadeToggle('slow');
+
+
+                if (window.innerHeight > 800) {
+                    $('#sun').fadeToggle('slow');
+                }
+
                 $('.overlay').toggle();
             };
 
-            // mapboxgl.accessToken = 'pk.eyJ1Ijoia2Vpc3RvIiwiYSI6ImNpa2l3c2twZTA1NmV1ZG02dDU2dDh0Y3AifQ.IsAoh6-Oygo60Myhyu-eXg';
-            // var map = new mapboxgl.Map({
-            //     center: [-122.3448, 47.6156],
-            //     zoom: 12,
-            //     container: 'map',
-            //     style: 'mapbox://styles/mapbox/satellite-streets-v11'
-            // });
-            // var popup = new mapboxgl.Popup({closeOnClick: false})
-            //     .setLngLat([-122.3448, 47.6156])
-            //     .setHTML('<h2>I\'m Here!</h2>')
-            //     .addTo(map);
-            //
-            // map.scrollZoom.disable();
-            // map.doubleClickZoom.disable();
+            if (window.innerWidth < 900) {
+                $('#asteroid').fadeOut('slow');
+            }
+
+            $( window ).resize(function() {
+                if (window.innerHeight < 800) {
+                    $('#sun').fadeOut('slow');
+                } else if (navBool) {
+                    $('#sun').fadeIn('slow');
+                }
+
+                if (window.innerWidth < 900) {
+                    $('#asteroid').fadeOut('slow');
+                } else {
+                    $('#asteroid').fadeIn('slow');
+                }
+            });
+
+            function animateCSS(element, animationName, callback) {
+                const node = document.querySelector(element)
+                node.classList.add('animated', animationName)
+
+                function handleAnimationEnd() {
+                    node.classList.remove('animated', animationName)
+                    node.removeEventListener('animationend', handleAnimationEnd)
+
+                    if (typeof callback === 'function') callback()
+                }
+
+                node.addEventListener('animationend', handleAnimationEnd)
+            }
+            
         </script>
     </body>
 </html>
