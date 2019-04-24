@@ -23,7 +23,7 @@ class MailController extends Controller {
     // }
     //
     public function mail() {
-        Mail::to('keisertony@gmail.com')->replyTo('someone@g.com', 'Some Thing')->send(
+        Mail::to('keisertony@gmail.com')->send(
                 new MessageSubmitted('Hello World!123')
             );
     }
