@@ -1,4 +1,4 @@
-@component('mail::message', $message)
+@component('mail::message')
 # Message Recieved:
 @php echo($message) @endphp
 {{-- @component('mail::button', ['url' => ''])
