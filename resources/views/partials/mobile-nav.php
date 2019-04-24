@@ -4,7 +4,7 @@
         <img id="flag" src="/images/background/flag.png" class="bg-image -mb-2" width="240px" style="padding-left: 12px; display:none; bottom: 0;" />
 
         <div id="sun" style="width:216px; top:40px; left: 40px; height: 512px; display: none;
-            background:url('/images/background/sun.png')" class="bg-image"> 
+            background:url('/images/background/sun.png')" class="bg-image">
         </div>
 
         <div class="mobile-nav flex justify-between flex-col">
@@ -73,7 +73,7 @@
                     </p>
                     <p class="py-2">
                         <i class="text-grey-dark fal fa-mobile fa-fw mr-2"></i>
-                        <a href="tel:206-323-3484">206-323-3484</a>
+                        <a href="tel:206-353-3484">206-353-3484</a>
                     </p>
                     <p>
                         <i class="text-grey-dark fal fa-envelope-open-text fa-fw mr-2"></i>

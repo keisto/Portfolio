@@ -17,7 +17,7 @@
                     </p>
                     <p class="py-2">
                         <i class="text-grey-dark fal fa-mobile mr-2"></i>
-                        <a href="tel:206-323-3484">206-323-3484</a>
+                        <a href="tel:206-353-3484">206-353-3484</a>
                     </p>
                     <p>
                         <i class="text-grey-dark fal fa-envelope-open-text mr-2"></i>
