@@ -1,12 +1,12 @@
 @component('mail::message')
 # Introduction
 
-$request->message
+$message
 
 @component('mail::button', ['url' => ''])
 Button Text
 @endcomponent
 
 From:<br>
-$request->name
+$name
 @endcomponent

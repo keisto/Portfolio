@@ -16,9 +16,10 @@ class MessageSubmitted extends Mailable
      *
      * @return void
      */
-    public function __construct()
+    public function __construct($request)
     {
-        //
+        $this->message = $request->message;
+        $this->name = $request->name;
     }
 
     /**

@@ -15,7 +15,7 @@ class MailController extends Controller {
             'message' => 'required',
         ]);
 
-        Mail::to('keisertony@gmail.com')->from($request->email)->send(
+        Mail::to('keisertony@gmail.com')->from($request->email, $request->name)->send(
             new MessageSubmitted($request)
         );
 
