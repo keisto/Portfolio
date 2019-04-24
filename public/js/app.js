@@ -1975,7 +1975,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {
     mapboxgl.accessToken = 'pk.eyJ1Ijoia2Vpc3RvIiwiYSI6ImNpa2l3c2twZTA1NmV1ZG02dDU2dDh0Y3AifQ.IsAoh6-Oygo60Myhyu-eXg';
@@ -2015,10 +2014,7 @@ __webpack_require__.r(__webpack_exports__);
           _this.fields = {}; //Clear input fields.
 
           _this.loaded = true;
-          _this.success = true; // $('#form').addClass('animated').addClass('zoomOut');
-          // $('#form').addClass('animated').addClass('zoomOut');
-          //
-
+          _this.success = true;
           animateCSS('#form', 'zoomOut', function () {
             $('#form').toggle();
             $('#success').removeClass('hidden').addClass('flex');

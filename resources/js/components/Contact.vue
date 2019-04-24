@@ -72,7 +72,6 @@
                 </div>
             </div>
         </div>
-
     </div>
 </template>
 
@@ -121,9 +120,7 @@
                         this.fields = {}; //Clear input fields.
                         this.loaded = true;
                         this.success = true;
-                        // $('#form').addClass('animated').addClass('zoomOut');
-                        // $('#form').addClass('animated').addClass('zoomOut');
-                        //
+
                         animateCSS('#form', 'zoomOut', function() {
                             $('#form').toggle();
                             $('#success').removeClass('hidden').addClass('flex');
@@ -137,7 +134,6 @@
                                 }, 3000);
                             });
                         });
-
 
                     }).catch(error => {
                         this.loaded = true;
