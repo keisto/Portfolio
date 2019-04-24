@@ -11,6 +11,9 @@ class MessageSubmitted extends Mailable
 {
     use Queueable, SerializesModels;
 
+    public $name;
+    public $email;
+    public $message;
     /**
      * Create a new message instance.
      *
