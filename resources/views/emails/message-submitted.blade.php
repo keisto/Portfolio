@@ -1,11 +1,12 @@
-@component('mail::message')
-# Introduction
-
-$message
-
-@component('mail::button', ['url' => ''])
+@component('mail::message', $message)
+# Message Recieved:
+@php echo($message) @endphp
+{{-- @component('mail::button', ['url' => ''])
 Button Text
-@endcomponent
+@endcomponent --}}
 
 From:<br>
+@php echo($name) @endphp
+Email:
+@php echo($email) @endphp
 @endcomponent

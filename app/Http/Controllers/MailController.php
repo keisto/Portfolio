@@ -8,23 +8,18 @@ use Illuminate\Support\Facades\Mail;
 
 class MailController extends Controller {
 
-    // public function mail(Request $request) {
-    //     $this->validate($request, [
-    //         'name' => 'required|string',
-    //         'email' => 'required|email',
-    //         'message' => 'required',
-    //     ]);
-    //
-    //     Mail::to('keisertony@gmail.com')->from($request->email, $request->name)->send(
-    //         new MessageSubmitted($request)
-    //     );
-    //
-    //     return response()->json(null, 200);
-    // }
-    //
-    public function mail() {
+    public function mail(Request $request) {
+        $this->validate($request, [
+            'name' => 'required|string',
+            'email' => 'required|email',
+            'message' => 'required',
+        ]);
+
         Mail::to('keisertony@gmail.com')->send(
-                new MessageSubmitted('Hello World!123')
-            );
+            new MessageSubmitted($request->name, $request->email, $request->message)
+        );
+
+        return response()->json(null, 200);
     }
+
 }
