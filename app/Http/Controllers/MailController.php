@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Mail\MessageSubmitted;
 use Illuminate\Support\Facades\Mail;
-''
+
 class MailController extends Controller {
 
     // public function mail(Request $request) {
