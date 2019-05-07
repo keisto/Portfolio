@@ -14,6 +14,15 @@
         <link rel="stylesheet" href="/css/app.css">
         <!-- Scripts -->
         <script src='https://static-assets.mapbox.com/gl-pricing/dist/mapbox-gl.js'></script>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-129313407-2"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'UA-129313407-2');
+        </script>
     </head>
     <body class="font-sans px-4">
         <div id="app">
