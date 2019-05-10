@@ -4,7 +4,9 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
         <meta name="csrf-token" content="{{ csrf_token() }}">
-        <title>Tony Keiser‍</title>
+        <meta name="Description" content="Tony Keiser is a software developer in the Seattle, WA. His skills for developing mobile and web applications include PHP, JavaScript, Swift, Java utilizing frameworks like Laravel, VueJS, Alamofire, and more!">
+        <meta name="Keywords" content="software developer, laravel developer, seattle Developer, php developer, vuejs developer, software engineer, Tony Keiser">
+        <title>Software Developer | Tony Keiser‍</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600" rel="stylesheet">
@@ -37,7 +39,7 @@
                         <img src="/images/tony.jpeg" class="inline border border-grey-light shadow mr-4" style="border-radius: 100%; width: 120px; height: 120px;"/>
                         <div>
                             <h1 class="text-black leading-loose">Tony Keiser</h1>
-                            <h5 class="hint text-center md:text-left lg:text-left xl:text-left md:pl-1 lg:pl-1 lx:pl-1">Software Engineer</h5>
+                            <h5 class="hint text-center md:text-left lg:text-left xl:text-left md:pl-1 lg:pl-1 lx:pl-1">Software Developer</h5>
                         </div>
                     </div>
 
