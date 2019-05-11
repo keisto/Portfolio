@@ -8,6 +8,11 @@
         <meta name="Keywords" content="software developer, laravel developer, seattle Developer, php developer, vuejs developer, software engineer, Tony Keiser">
         <title>Software Developer | Tony Keiser‍</title>
 
+        <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+        <link rel="iconicon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+        <link rel="manifest" href="/images/favicon/site.webmanifest">
+
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600" rel="stylesheet">
         <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-Bx4pytHkyTDy3aJKjGkGoHPt3tvv6zlwwjc3iqN7ktaiEMLDPqLSZYts2OjKcBx1" crossorigin="anonymous">
