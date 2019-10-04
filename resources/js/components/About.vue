@@ -44,9 +44,7 @@
                     <li class="text-base">PHP <span class="rounded-full border border-green bg-green-lightest text-green text-xs px-2 py-1 ml-4">6 years</span></li>
                     <li class="text-base">JavaScript <span class="rounded-full border border-green bg-green-lightest text-green text-xs px-2 py-1 ml-4">6 years</span></li>
                     <li class="text-base">Swift <span class="rounded-full border border-green bg-green-lightest text-green text-xs px-2 py-1 ml-4">4 years</span></li>
-                    <li class="text-base">Java <span class="rounded-full border border-green bg-green-lightest text-green text-xs px-2 py-1 ml-4">3 years</span></li>
-                    <li class="text-base">Objective-C <span class="rounded-full border border-green bg-green-lightest text-green text-xs px-2 py-1 ml-4">2 years</span></li>
-                    <li class="text-base">Python <span class="rounded-full border border-green bg-green-lightest text-green text-xs px-2 py-1 ml-4">1 year</span></li>
+                    <li class="text-base">Flutter <span class="rounded-full border border-green bg-green-lightest text-green text-xs px-2 py-1 ml-4"><1 year</span></li>
                 </ul>
                 <div class="w-2/5 hidden md:block lg:block xl:block bg-center" style="height:256px;
                     background:url('/images/alien.png');
@@ -61,10 +59,11 @@
             <h2 class="text-black mb-8 mt-4">Frameworks</h2>
             <div class="flex flex-row-reverse items-center">
                 <ul class="w-full md:w-2/5 lg:w-2/5 xl:w-2/5 text-black">
-                    <li class="text-base">Laravel <span class="rounded-full border border-green bg-green-lightest text-green text-xs px-2 py-1 ml-4">3 years</span></li>
-                    <li class="text-base">TailwindCSS <span class="rounded-full border border-green bg-green-lightest text-green text-xs px-2 py-1 ml-4">1 year</span></li>
-                    <li class="text-base">Bootstrap <span class="rounded-full border border-green bg-green-lightest text-green text-xs px-2 py-1 ml-4">3 years</span></li>
+                    <li class="text-base">Laravel <span class="rounded-full border border-green bg-green-lightest text-green text-xs px-2 py-1 ml-4">4 years</span></li>
+                    <li class="text-base">Sass <span class="rounded-full border border-green bg-green-lightest text-green text-xs px-2 py-1 ml-4">3 year</span></li>
+                    <li class="text-base">TailwindCSS <span class="rounded-full border border-green bg-green-lightest text-green text-xs px-2 py-1 ml-4">2 years</span></li>
                     <li class="text-base">Vue.JS <span class="rounded-full border border-green bg-green-lightest text-green text-xs px-2 py-1 ml-4">1 year</span></li>
+                    <li class="text-base"><span class="line-through">Bootstrap</span> <span class="rounded-full border border-green bg-green-lightest text-green text-xs px-2 py-1 ml-4">3 years</span></li>
                 </ul>
                 <div class="flex-1 hidden md:block lg:block xl:block bg-center" style="height:256px;
                     background:url('/images/capsule.png');
@@ -77,12 +76,11 @@
             <h2 class="text-black mb-8 mt-4">Integrated Development Environments <span class="hint">(IDE)</span></h2>
             <div class="flex flex-row items-center">
                 <ul class="flex-1 text-black">
-                    <li class="text-base">Atom <span class="rounded-full border border-green bg-green-lightest text-green text-xs px-2 py-1 ml-4">3 years</span></li>
-                    <li class="text-base">PHPStorm <span class="rounded-full border border-green bg-green-lightest text-green text-xs px-2 py-1 ml-4">2 years</span></li>
-                    <li class="text-base">Xcode <span class="rounded-full border border-green bg-green-lightest text-green text-xs px-2 py-1 ml-4">5 years</span></li>
-                    <li class="text-base">Android Studio <span class="rounded-full border border-green bg-green-lightest text-green text-xs px-2 py-1 ml-4">3 years</span></li>
-                    <li class="text-base">IntelliJ IDEA <span class="rounded-full border border-green bg-green-lightest text-green text-xs px-2 py-1 ml-4">1 year</span></li>
-                    <li class="text-base">Coda 2 <span class="rounded-full border border-green bg-green-lightest text-green text-xs px-2 py-1 ml-4">3 years</span></li>
+                    <li class="text-base">VS Code <span class="rounded-full border border-green bg-green-lightest text-green text-xs px-2 py-1 ml-4">1 years</span></li>
+                    <li class="text-base">PHPStorm <span class="rounded-full border border-green bg-green-lightest text-green text-xs px-2 py-1 ml-4">3 years</span></li>
+                    <li class="text-base"><span class="line-through">Atom</span> <span class="rounded-full border border-green bg-green-lightest text-green text-xs px-2 py-1 ml-4">3 years</span></li>
+                    <li class="text-base"><span class="line-through">Xcode</span> <span class="rounded-full border border-green bg-green-lightest text-green text-xs px-2 py-1 ml-4">5 years</span></li>
+                    <li class="text-base"><span class="line-through">Android Studio</span> <span class="rounded-full border border-green bg-green-lightest text-green text-xs px-2 py-1 ml-4">3 years</span></li>
                 </ul>
                 <div class="flex-1 hidden md:block lg:block xl:block bg-center" style="height:256px;
                     background:url('/images/dish.png');

@@ -12,7 +12,13 @@
                 <div class="flex-1">
                     <h2 class="text-black mb-8 mt-4">You found me.</h2>
                     <p class="text-grey-darker text-base mb-4">
-                        I'm currently a freelancer, full-stack developer, and software engineer. However, I am looking for a career with a great company. Stay here a while and learn about me.
+                        I'm currently just hanging out here! I'm looking for a good team to utilize my skills and passion for building great products and services.
+                    </p>
+                    <p class="text-grey-darker text-base mb-4">
+                        I mostly use Laravel for my Back-End and VueJS for Front-End. However, I'm not stuck in my ways I'm open to learning different stacks as I am currently trying to switch out of PHP and MySQL. Additionally, I took it upon myself to learn Flutter to build mobile companions for my web applications.
+                    </p>
+                    <p class="text-grey-darker text-base mb-4">
+                          Stay here a while and learn about me.
                         <router-link to="/about"><i class="far fa-long-arrow-right arrow"></i></router-link>
                     </p>
                 </div>
