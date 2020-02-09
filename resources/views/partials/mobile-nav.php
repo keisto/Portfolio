@@ -1,4 +1,4 @@
-<div class="overlay" onclick="toggleNav()"></div>
+<div class="overlay"></div>
 <nav class="sidenav pt-8 -ml-4">
     <div class="relative h-full">
         <img id="flag" src="/images/background/flag.png" class="bg-image -mb-2" width="240px" style="padding-left: 12px; display:none; bottom: 0;" />

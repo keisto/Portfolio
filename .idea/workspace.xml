@@ -2,35 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba62e8ff-9d47-4325-80cd-a30980922ac9" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/portfolio.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/portfolio.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/alien.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/alien.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/astronaut-dance.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/astronaut-dance.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/astronaut.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/astronaut.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/background/asteroid-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/background/asteroid-2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/background/asteroid.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/background/asteroid.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/background/falling-star.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/background/falling-star.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/background/flag.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/background/flag.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/background/galaxy.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/background/galaxy.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/background/mars.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/background/mars.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/background/space-colony.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/background/space-colony.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/background/star.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/background/star.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/background/sun.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/background/sun.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/capsule.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/capsule.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/dish.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/dish.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/navo-logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/navo-logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/navo-logo2.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/navo-logo2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/observatory.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/observatory.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/planet.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/planet.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/pylon-logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/pylon-logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/satellite.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/satellite.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/space-shuttle.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/space-shuttle.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/tony.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/tony.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,11 +14,28 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution>
       <executable />
     </execution>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FileColors">
     <fileColor scope="Non-Project Files (Material Oceanic)" color="2E3C43" />
@@ -142,6 +135,9 @@
       <path value="$PROJECT_DIR$/vendor/guzzlehttp/guzzle" />
     </include_path>
   </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
   <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1680" />
     <option name="height" value="1050" />
@@ -150,11 +146,12 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Reacted" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -183,7 +180,11 @@
       <workItem from="1555796135196" duration="474000" />
       <workItem from="1556095232872" duration="87000" />
       <workItem from="1570158190191" duration="1140000" />
-      <workItem from="1570159529024" duration="826000" />
+      <workItem from="1570159529024" duration="1213000" />
+      <workItem from="1573273404413" duration="73000" />
+      <workItem from="1573273641693" duration="35000" />
+      <workItem from="1573273744515" duration="77000" />
+      <workItem from="1574407031419" duration="21000" />
     </task>
     <servers />
   </component>
